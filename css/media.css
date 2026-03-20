@@ -150,6 +150,12 @@
     padding-bottom: 0px;
 }
 
+.we{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .projectItems img{
     width: 100%;
 }
@@ -171,7 +177,7 @@
 
 .footerContactInfo a {
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     color: #959595;
     transition: .5s;

@@ -25,7 +25,15 @@ h1,h2,h3,h4,h5,h6,p{
 /* header part start */
 .navbar {
     background: #121212;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+
 
 .nav-link {
     color: #959595;
@@ -38,6 +46,11 @@ h1,h2,h3,h4,h5,h6,p{
 
 .nav-link:hover{
     color: #FD6F00;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
 }
 
 .hireMe{
